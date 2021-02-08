@@ -6,9 +6,10 @@ From _AndroidStudio_ at `tool > SDK Manager > SDK Tools` install:
 * __LLDB__
 * __CMake__
 * __NDK__.
+*
 
 ## Usage
-1. Clone the repo __recursively__ (to download _Dlib_).
+1. Clone the repo __recursively__ (to download _Dlib_). git clone --recursive git://github.com/foo/bar.git
 2. Create an Android project with __c++11__ support.
 3. Edit the `setup.sh` (_Linux user_) or `setup.ps1` (_Windows user_) script:
 	- Replace `AndroidCmake` variable with the path to your __Android CMake__ excutable (is usually inside the android `sdk` folder).
